@@ -103,7 +103,7 @@ def main():
         chatbot()
     st.sidebar.markdown(''' 
                         ## Created by: 
-                        Nithishkumar- [GitHub](https://github.com/ahmadluay9) 
+                        Nithishkumar- [https://github.com/nithishkumar717) 
                         ''')
 
 if __name__ == '__main__':
