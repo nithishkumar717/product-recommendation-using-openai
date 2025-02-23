@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Recommendations</title>
+</head>
+<body>
+    <h1>Recommended Products</h1>
+    <ul>
+        {% for product in products %}
+        <li>
+            <strong>{{ product.name }}</strong><br>
+            Price: {{ product.price }}<br>
+            Rating: {{ product.rating }} / 5
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
